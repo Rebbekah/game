@@ -106,7 +106,7 @@ def hangman_board(word):
         else:
             print('_',end=' ')
             
-    print (word)    
+    print(word)    
     for i in incorrect:
         print(i, end=' ')
     
