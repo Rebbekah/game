@@ -16,10 +16,9 @@ WORD3 = ["dog", "cat", "rat", "bat", "zoo", "red", "bed",
          "son", "ton", "dad", "mum", "are", "tie", "try",
          "tap", "lab", "lap", "lob", "sob", "lad", "zit",
          "zed", "rim", "zip", "fez", "fat", "vet", "ava",
-         "van", "eve", "ivy", "ova", "vow", "rig", "jab",
-         "jag", "jam", "jar", "jaw", "jet", "jew", "jib",
-         "jig", "dew", "inn", "job","jog", "joy", "jug",
-         "tai"]
+         "van", "eve", "ivy", "vow", "rig", "jab", "jag",
+         "jam", "jar", "jaw", "jet", "jew", "jib", "jig",
+         "dew", "inn", "job", "jog", "joy", "jug", "tai"]
 
 
 WORD4 = ["fort", "four", "free", "from", "fuel", "full",
@@ -64,6 +63,13 @@ WORD4 = ["fort", "four", "free", "from", "fuel", "full",
          "Sign", "Site", "Size", "Skin", "Slip", "Slow",
          "Snow", "Soft", "Soil", "Sold", "Sole", "Some",
          "Song", "Soon", "Sort", "Soul", "Spot", "Star"]
+
+WORD5 = ["seven", "world", "about", "heart", "pizza", "water",
+         "happy", "sixty", "board", "month", "angel", "death",
+         "green", "music"]
+
+WORD6 = ["purple", "orange", "family", "family", "silver",
+         "thirty", "donate", "people", "future", "heaven"]
 
 
 incorrect = []
@@ -188,9 +194,9 @@ while True:
     elif letters == 4:
         word = word_list(WORD4)
     elif letters == 5:
-        word = word_list()
+        word = word_list(WORD5)
     else :
-        word = word_list()
+        word = word_list(WORD6)
 
         
     while True:
